@@ -1,0 +1,83 @@
+body{
+	color:#fff;
+}
+
+.menu-1{
+	height: 60px;
+	background: #444;
+
+}
+
+.top.botones {
+	text-align: center;
+}
+
+.boton {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.btn {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	display: inline-block;
+	width: 80px;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+
+
+
+.slider-1{
+	background: #fffb0d;
+	height: 100vh;
+	text-align: center;
+
+}
+.slider-2{
+	background: #2b6cd4;
+	height: 100vh;
+	text-align: center;
+}
+.slider-3{
+	background: #10c056;
+	height: 100vh;
+	text-align: center;
+}
+.slider-4{
+	background: #ff4538;
+	height: 100vh;
+	text-align: center;
+}
+
+.titulo {
+	background-color: rgb(57, 54, 54);
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Tamaño mínimo de 150px por columna */
+	grid-template-rows: repeat(2, 1fr); /* Tamaño mínimo de 150px por columna */
+
+	grid-gap: 20px; /* Espacio entre los elementos */
+	padding: 20px; 
+	text-align: center;
+
+}
+
+.texto {
+	background-color: rgb(57, 54, 54);
+
+
+}
+
+.grilla {
+	text-align: center;
+}
